@@ -6,7 +6,7 @@ const AddPatient = () => {
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
-        dateOfBirth: '',
+        // dateOfBirth: '',
         phone: '',
         email: ''
     });
@@ -21,6 +21,7 @@ const AddPatient = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            console.log(formData);
             await createPatient(formData);
             alert('Patient added successfully!');
         } catch (error) {
@@ -34,7 +35,7 @@ const AddPatient = () => {
             <form onSubmit={handleSubmit}>
                 <input name="firstName" placeholder="First Name" onChange={handleChange} />
                 <input name="lastName" placeholder="Last Name" onChange={handleChange} />
-                <input name="dateOfBirth" placeholder="Date of Birth" onChange={handleChange} />
+                {/* <input name="dateOfBirth" placeholder="Date of Birth" onChange={handleChange} /> */}
                 <input name="phone" placeholder="Phone" onChange={handleChange} />
                 <input name="email" placeholder="Email" onChange={handleChange} />
                 <button type="submit">Add Patient</button>
