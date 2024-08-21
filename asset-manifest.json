@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Hospital-Managment-Frontend.git/static/css/main.cc581db8.css",
-    "main.js": "/Hospital-Managment-Frontend.git/static/js/main.687628be.js",
+    "main.js": "/Hospital-Managment-Frontend.git/static/js/main.aab9f534.js",
     "static/js/453.0d577952.chunk.js": "/Hospital-Managment-Frontend.git/static/js/453.0d577952.chunk.js",
     "index.html": "/Hospital-Managment-Frontend.git/index.html",
     "main.cc581db8.css.map": "/Hospital-Managment-Frontend.git/static/css/main.cc581db8.css.map",
-    "main.687628be.js.map": "/Hospital-Managment-Frontend.git/static/js/main.687628be.js.map",
+    "main.aab9f534.js.map": "/Hospital-Managment-Frontend.git/static/js/main.aab9f534.js.map",
     "453.0d577952.chunk.js.map": "/Hospital-Managment-Frontend.git/static/js/453.0d577952.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc581db8.css",
-    "static/js/main.687628be.js"
+    "static/js/main.aab9f534.js"
   ]
 }
