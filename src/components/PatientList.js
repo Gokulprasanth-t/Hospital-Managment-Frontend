@@ -29,9 +29,10 @@ const PatientList = () => {
             <ul>
                 {patients.map((patient) => (
                     <li key={patient._id}>
-                        {patient.firstName} {patient.lastName} - {patient.email}
+                        {patient.firstName} {patient.lastName} - {patient._id}
                     </li>
-                ))}
+                ))
+                }
             </ul>
         </div>
     );

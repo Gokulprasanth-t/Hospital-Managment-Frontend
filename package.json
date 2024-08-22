@@ -1,7 +1,7 @@
 {
   "name": "hospital-management-frontend",
   "version": "0.1.0",
-  "proxy": "http://localhost:4000",
+  "homepage": "https://Gokulprasanth-t.github.io/Hospital-Managment-Frontend",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://Gokulprasanth-t.github.io/Hospital-Managment-Frontend.git"
+  }
+  
 
 }

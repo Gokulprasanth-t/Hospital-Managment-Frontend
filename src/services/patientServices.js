@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// const API_URL = 'https://hospital-management-3bh6.vercel.app/api/patients';
-const API_URL='http://localhost:4001/api/patients'
+const API_URL = 'https://hospital-managment-topaz.vercel.app/api/patients';
+// const API_URL='http://localhost:4001/api/patients'
 export const getAllPatients = async () => {
     return axios.get(`${API_URL}/getall`);
 };
